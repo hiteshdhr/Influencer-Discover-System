@@ -14,8 +14,9 @@ InfluenceHub AI is a premium SaaS application designed for brands to discover an
 
 *(The application is still under development. Below is a preview of the discovery dashboard)*
 
-![Discovery Dashboard](assets/dashboard.png)
-*(Please add the actual `dashboard.png` to the `assets/` folder)*
+![Discovery Dashboard]<img width="1920" height="1080" alt="dashboard png" src="https://github.com/user-attachments/assets/e6812b98-795f-48de-a42f-a26cab6cc833" />
+
+
 
 ## Tech Stack
 - **Frontend**: React 19, Vite, Tailwind CSS, Framer Motion, React Router
