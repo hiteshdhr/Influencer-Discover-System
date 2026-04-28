@@ -4,3 +4,5 @@ backend-java/target/
 frontend/dist/
 .DS_Store
 backend-java/src/main/resources/application.properties
+
+backend_java/target/
