@@ -22,7 +22,7 @@ function DiscoverPage() {
 
     try {
       const keywordArray = keywords.split(',').map(k => k.trim()).filter(Boolean);
-      const API_BASE = "http://localhost:5005";
+      const API_BASE = "http://localhost:8080";
       const response = await fetch(`${API_BASE}/api/discover`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

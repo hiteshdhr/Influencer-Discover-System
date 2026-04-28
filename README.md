@@ -8,7 +8,7 @@ InfluenceHub AI is a premium SaaS application designed for brands to discover an
 - **Live Discovery Pipeline**: Connects to the YouTube Data API to fetch real, active micro-influencers based on your keywords.
 - **Content Intelligence**: Analyzes engagement rates and niches to generate a "Fit Score" for your brand context.
 - **Minimalist SaaS UI**: A sleek, dark-themed interface inspired by Linear and Vercel, built with React, Tailwind CSS, and Framer Motion.
-- **Java Spring Boot Backend**: Robust and scalable backend REST API running on port 5005.
+- **Java Spring Boot Backend**: Robust and scalable backend REST API running on port 8080.
 
 ## Screenshots
 
@@ -19,13 +19,13 @@ InfluenceHub AI is a premium SaaS application designed for brands to discover an
 
 ## Tech Stack
 - **Frontend**: React 19, Vite, Tailwind CSS, Framer Motion, React Router
-- **Backend**: Java Spring Boot (Port 5005)
+- **Backend**: Java Spring Boot (Port 8080)
 - **APIs**: YouTube Data API v3
 
 ## How to Run
 
 1. **Backend**:
-   Navigate to `backend-java/` and configure your API keys in `src/main/resources/application.properties`.
+   Navigate to `backend_java/` and configure your API keys in `src/main/resources/application.properties`.
    ```bash
    ./mvnw spring-boot:run
    ```
